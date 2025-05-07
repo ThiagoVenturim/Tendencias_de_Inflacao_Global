@@ -54,8 +54,6 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 [9. Preparação dos dados](#Preparação_dos_dados)
 
-[10. Indução de modelos](#Indução_de_modelos)
-
 [11. Resultados ](#Resultados)
 
 [12. Conclusão ](#Conclusão)
@@ -127,13 +125,6 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
  <h3 align="center"><strong> Preparação dos dados  </strong></h3> 
 
 	
-
----
-
-<div id='Indução_de_modelos'/>  
- <h3 align="center"><strong> Indução de modelos  </strong></h3> 
-
-
 
 ---
 
