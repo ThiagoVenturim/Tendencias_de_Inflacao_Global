@@ -1,5 +1,4 @@
- # Tema
-
+ # Análise Comparativa das Tendências de Inflação Global (1980-2024): Impactos, Disparidades Regionais e Eventos Econômicos
 ---
 
 
@@ -11,7 +10,7 @@
 
 **Aluno, email**
 
-**Aluno, email**
+**Thiago Domingos Venturim RIbeiro dos Santos, thiagodomingosventutim@gmail.com**
 
 
 ---
