@@ -1,7 +1,7 @@
 # Trabalho de Introducao aos Sistemas Inteligentes
 
 ---
-_Tema:_
+_Tema:_ Análise Comparativa das Tendências de Inflação Global (1980-2024): Impactos, Disparidades Regionais e Eventos Econômicos
 
 
 _Resumo_
