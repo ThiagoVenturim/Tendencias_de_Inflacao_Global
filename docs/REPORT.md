@@ -8,7 +8,7 @@
 
 **Aluno, email**
 
-**Aluno, email**
+**Pedro Dias Soares**, **pedro3soares@gmail.com** / **pdsoares@sga.pucminas.br**
 
 **Thiago Domingos Venturim RIbeiro dos Santos, thiagodomingosventutim@gmail.com**
 
