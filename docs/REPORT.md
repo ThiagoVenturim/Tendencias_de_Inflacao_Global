@@ -144,7 +144,7 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
    <h3 align="center"><strong> REFERÊNCIAS   </strong></h3> 
 
 
-*[1]* Kaggle: Global Inflation Dataset- Annual Inflation Rate of 196 Countries (1980-2024)Disponível em: https://www.kaggle.com/datasets/sazidthe1/global-inflation-data.Acesso em: 06 mai. 2025.
+*[1]* Kaggle: Global Inflation Dataset- Annual Inflation Rate of 196 Countries (1980-2024)Disponível em: [https://www.kaggle.com/datasets/sazidthe1/global-inflation-data](https://www.kaggle.com/datasets/sazidthe1/global-inflation-data).Acesso em: 06 mai. 2025.
 
 
 ---
