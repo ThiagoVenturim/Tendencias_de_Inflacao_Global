@@ -12,7 +12,7 @@ _Professor:_
 ---
 _Integrantes_:
 * Thiago Domingos Venturim Riberio dos Santos (thiagodomingosventutim@gmail.com)
-* nome(email)
+* Pedro Dias Soares (pedro3soares@gmail.com)
 * nome(email)
 * nome(email)
 * nome(email)
