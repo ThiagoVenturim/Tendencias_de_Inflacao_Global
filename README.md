@@ -8,6 +8,10 @@ _Resumo_
 
 ---
 _Professor:_
+- Prof. Hugo de Paula
+- Prof. Sandro Jerônimo
+- Prof. Maury Meirelles Gouvêa Júnior
+- Prof. Luiz Carlos Figueiredo
 
 ---
 _Integrantes_:
