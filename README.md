@@ -18,5 +18,5 @@ _Integrantes_:
 * Thiago Domingos Venturim Riberio dos Santos (thiagodomingosventutim@gmail.com)
 * Pedro Dias Soares (pedro3soares@gmail.com)
 * Rafael Silvestre da Silva (rafaelsilvestres03@gmail.com)
-* nome(email)
+* Thales Ribeiro Melo (thalesm1819@gmail.com)
 * nome(email)
