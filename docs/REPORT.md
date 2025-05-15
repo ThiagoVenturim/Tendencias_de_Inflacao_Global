@@ -68,8 +68,10 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 <div id='Introdução'/>  
 
  <h3 align="center"><strong> Introdução </strong></h3>
-
-
+ 
+ Escolhemos a base [*Global Inflation Data (1980-2024)*](https://www.kaggle.com/datasets/sazidthe1/global-inflation-data) para o tema "Análise Comparativa das Tendências de Inflação Global (2015-2024): Impactos, Disparidades Regionais e Eventos Econômicos". Essa base é particularmente relevante para investigar como diferentes regiões do mundo enfrentaram a inflação na última década, especialmente diante de eventos econômicos marcantes como a pandemia de COVID-19, a guerra na Ucrânia, flutuações nos preços das commodities e as políticas monetárias adotadas em resposta às crises. 
+ 
+ [Base de Dados Completa](/data/DataSet/Raw_Data/SetGlobal_Inflation_Data.csv)
 
 ---
 
