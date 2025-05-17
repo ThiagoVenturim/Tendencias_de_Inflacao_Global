@@ -230,8 +230,9 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 
 <div id='Resultados'/>  
-<h3 align="center"><strong> Resultados  </strong></h3> 
-
+<h3 align="center"><strong> Resultados  </strong></h3>
+	
+[Resultados](/others/Exploratory_Analysis.md)
 
 ---
 
