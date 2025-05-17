@@ -44,23 +44,25 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 [4. Pergunta Direcionada a Dados](#Pergunta_Direcionada_a_Dados)
 
-[5. Objetivos](#Objetivos)
+[5. Hipóteses](#Hipóteses)
 
-[6.Justificativas ](#Justificativas)
+[6. Objetivos](#Objetivos)
 
-[7. Público alvo](#Público_alvo)
+[7.Justificativas ](#Justificativas)
 
-[8. Preparação dos dados](#Preparação_dos_dados)
+[8. Público alvo](#Público_alvo)
 
-[9. Análise exploratórida dos dados](#Análise_exploratórida_dos_dados)
+[9. Preparação dos dados](#Preparação_dos_dados)
 
-[10. Resultados ](#Resultados)
+[10. Análise exploratórida dos dados](#Análise_exploratórida_dos_dados)
 
-[11. Conclusão ](#Conclusão)
+[11. Resultados ](#Resultados)
 
-[12. Referências ](#REFERÊNCIAS)
+[12. Conclusão ](#Conclusão)
 
-[13. Apêndices](#APÊNDICES)
+[13. Referências ](#REFERÊNCIAS)
+
+[14. Apêndices](#APÊNDICES)
 
 
 
@@ -100,6 +102,19 @@ O problema que buscamos compreender é: "Como a taxa de inflação projetada par
     <h3 align="center"><strong>  Pergunta Direcionada a Dados  </strong></h3>
 	
 **Como a taxa de inflação projetada para 2024 se compara com a média histórica de inflação dos últimos 10 anos (2014–2023) em países com dados disponíveis?**
+
+
+---
+<div id='Hipóteses'/>  
+    <h3 align="center"><strong> Hipóteses </strong></h3>
+
+Persistência estrutural: países com altos índices de inflação entre 2014 e 2023 tendem a manter projeções elevadas para 2024.
+
+Vulnerabilidade regional: países localizados na América Latina, África e partes da Ásia apresentarão as maiores projeções de inflação, refletindo maior exposição a choques externos.
+
+Impacto de políticas monetárias: países que adotaram políticas restritivas (ex.: aumento de juros) após a pandemia tendem a ter inflação projetada mais baixa em 2024.
+
+Efeitos de eventos globais: países com forte dependência de commodities ou importações devem exibir variações inflacionárias associadas à pandemia e à guerra na Ucrânia.
 
 
 
