@@ -58,6 +58,8 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 [11. Resultados ](#Resultados)
 
+[12. Analise Critica](#Analise_Critica)
+
 [12. Conclusão ](#Conclusão)
 
 [13. Referências ](#REFERÊNCIAS)
