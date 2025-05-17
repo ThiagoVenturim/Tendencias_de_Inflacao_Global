@@ -1,25 +1,29 @@
- # Análise Comparativa das Tendências de Inflação Global (1980-2024): Impactos, Disparidades Regionais e Eventos Econômicos
+ # Análise Comparativa das Tendências de Inflação Global (2015-2024): Impactos, Disparidades Regionais e Eventos Econômicos
 ---
 
 
-**Aluno, email**
+**Integrantes:**
 
-**Aluno, email**
+* **Rafael Silvestre da Silva, rafaelsilvestres03@gmail.com**
 
-**Aluno, email**
+* **Pedro Dias Soares**, **pedro3soares@gmail.com** / **pdsoares@sga.pucminas.br**
 
-**Pedro Dias Soares**, **pedro3soares@gmail.com** / **pdsoares@sga.pucminas.br**
+* **Thales Ribeiro Melo, thales.melo@sga.pucminas.br**
 
-**Thiago Domingos Venturim RIbeiro dos Santos, thiagodomingosventutim@gmail.com**
+* **Thiago Domingos Venturim RIbeiro dos Santos, thiagodomingosventutim@gmail.com/ tdvrsantos@sga.pucminas.br**
+  
 
 
 ---
 
-**Professores:**
+**Professores e Assistentes:**
 
 * **Prof. Hugo Bastos de Paula**
 
 * **Prof. Hayala Nepomuceno Curto**
+
+* **Kenia Aparecida Caires Cardoso**
+
 
 ---
 
@@ -29,11 +33,11 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
+_**Resumo:** O trabalho analisou a inflação global entre 2015 e 2024, contextualizando o impacto de eventos econômicos marcantes como a pandemia de COVID-19 e a guerra na Ucrânia sobre diferentes países e regiões. O objetivo central foi comparar a inflação projetada para 2024 com a média histórica da década anterior, identificando padrões, disparidades regionais e fatores explicativos, como políticas monetárias e choques externos. A análise exploratória dos dados revelou uma forte persistência inflacionária em países com histórico de inflação elevada, especialmente na América Latina e África. Um resultado relevante foi a identificação de que políticas monetárias restritivas ajudaram a conter a inflação em alguns países, enquanto outros permaneceram vulneráveis a choques globais. Esses achados reforçam a importância de respostas econômicas coordenadas para promover a estabilidade de preços e reduzir desigualdades regionais._
 
 
-*******
+----
+
    <h3 align="center"><strong> SUMARIO </strong></h3>
    
 [1. Introdução](#Introdução)   
@@ -97,20 +101,20 @@ Com esse foco, o período de 2015 a 2024 oferece um campo fértil para investiga
 	
 Apesar de a inflação ser um fenômeno econômico amplamente monitorado, sua manifestação prática, causas e efeitos variam significativamente entre países e regiões, especialmente em contextos marcados por choques econômicos globais e crises prolongadas. Entre 2015 e 2024, o mundo passou por uma sucessão de eventos disruptivos – como a pandemia de COVID-19, tensões geopolíticas (como a guerra na Ucrânia), crises energéticas e alimentares, além de variações abruptas nas políticas monetárias. Esses eventos impactaram de maneira desigual os países, revelando vulnerabilidades estruturais, diferentes níveis de resiliência econômica e disparidades regionais na capacidade de resposta à inflação.
 
-O problema que buscamos compreender é: "Como a taxa de inflação projetada para 2024 se compara com a média histórica de inflação dos últimos 10 anos (2014–2023) em países com dados disponíveis?"
+O problema que buscamos compreender é: "Como a taxa de inflação projetada para 2024 se compara com a média histórica de inflação dos últimos 10 anos (2015–2023) em países com dados disponíveis?"
 
 ---
 <div id='Pergunta_Direcionada_a_Dados'/>  
     <h3 align="center"><strong>  Pergunta Direcionada a Dados  </strong></h3>
 	
-**Como a taxa de inflação projetada para 2024 se compara com a média histórica de inflação dos últimos 10 anos (2014–2023) em países com dados disponíveis?**
+**Como a taxa de inflação projetada para 2024 se compara com a média histórica de inflação dos últimos 10 anos (2015–2023) em países com dados disponíveis?**
 
 
 ---
 <div id='Hipóteses'/>  
     <h3 align="center"><strong> Hipóteses </strong></h3>
 
-Persistência estrutural: países com altos índices de inflação entre 2014 e 2023 tendem a manter projeções elevadas para 2024.
+Persistência estrutural: países com altos índices de inflação entre 2015 e 2023 tendem a manter projeções elevadas para 2024.
 
 Vulnerabilidade regional: países localizados na América Latina, África e partes da Ásia apresentarão as maiores projeções de inflação, refletindo maior exposição a choques externos.
 
@@ -126,13 +130,13 @@ Efeitos de eventos globais: países com forte dependência de commodities ou imp
 <div id='Objetivos'/>  
    <h3 align="center"><strong> Objetivo geral  </strong></h3> 
 	
-Analisar comparativamente a inflação projetada para 2024 em relação à média inflacionária do período de 2014 a 2023, com foco em identificar variações significativas, padrões regionais e possíveis implicações econômicas.
+Analisar comparativamente a inflação projetada para 2024 em relação à média inflacionária do período de 2015 a 2023, com foco em identificar variações significativas, padrões regionais e possíveis implicações econômicas.
 
 ---
 
    <h3 align="center"><strong> Objetivos específicos   </strong></h3> 
    
-* Calcular a média das taxas de inflação anuais para cada país entre 2014 e 2023.
+* Calcular a média das taxas de inflação anuais para cada país entre 2015 e 2023.
 
 * Comparar essa média com a taxa projetada de inflação para o ano de 2024.
 
@@ -148,7 +152,7 @@ Analisar comparativamente a inflação projetada para 2024 em relação à médi
 	
    <h3 align="center"><strong> Justificativas  </strong></h3> 
    
- A inflação é um dos indicadores mais sensíveis e relevantes para avaliar a saúde econômica de uma nação. Alterações abruptas em sua trajetória podem sinalizar problemas estruturais, choques externos ou mudanças significativas na política econômica. A década entre 2014 e 2023 foi marcada por eventos que colocaram à prova a estabilidade econômica global: crises econômicas em mercados emergentes, a pandemia de COVID-19, rupturas nas cadeias de suprimentos, choques nos preços de energia e alimentos, além de respostas variadas por parte de governos e bancos centrais.
+ A inflação é um dos indicadores mais sensíveis e relevantes para avaliar a saúde econômica de uma nação. Alterações abruptas em sua trajetória podem sinalizar problemas estruturais, choques externos ou mudanças significativas na política econômica. A década entre 2015 e 2023 foi marcada por eventos que colocaram à prova a estabilidade econômica global: crises econômicas em mercados emergentes, a pandemia de COVID-19, rupturas nas cadeias de suprimentos, choques nos preços de energia e alimentos, além de respostas variadas por parte de governos e bancos centrais.
 
 Neste cenário, a projeção de inflação para 2024 torna-se um termômetro importante para medir a recuperação ou persistência de desequilíbrios em diferentes economias. Comparar essa projeção com a média da década anterior permite identificar se os países estão caminhando para a estabilização, se enfrentam riscos de superaquecimento ou deflação, ou se seguem expostos a choques recorrentes.
 
@@ -161,7 +165,7 @@ Essa abordagem orientada por dados, focada em projeções e médias históricas,
 <div id='Público_alvo'/>  
     <h3 align="center"><strong>  Público alvo   </strong></h3> 
 
-O público-alvo desta pesquisa são os países que apresentam as maiores taxas de inflação, especialmente aqueles que evidenciam variações significativas entre a média histórica (2014–2023) e a projeção para 2024. Esses países representam casos críticos para análise devido ao impacto mais intenso que a inflação exerce sobre suas economias, sociedades e políticas públicas.
+O público-alvo desta pesquisa são os países que apresentam as maiores taxas de inflação, especialmente aqueles que evidenciam variações significativas entre a média histórica (2015–2023) e a projeção para 2024. Esses países representam casos críticos para análise devido ao impacto mais intenso que a inflação exerce sobre suas economias, sociedades e políticas públicas.
 
 Focar nos países com maior inflação permite compreender as causas subjacentes e as consequências desse fenômeno em contextos diversos, desde economias emergentes até algumas desenvolvidas que enfrentam desafios específicos. Esses países são geralmente mais vulneráveis a choques externos, como flutuações nos preços de commodities, crises cambiais ou instabilidades políticas, e costumam apresentar maior sensibilidade a políticas monetárias restritivas ou expansivas.
 
@@ -209,7 +213,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 <div id='Análise_exploratórida_dos_dados'/>  
   <h3 align="center"><strong>  Análise exploratórida dos dados  </strong></h3>
 	
-*Importância da Análise Exploratória de Dados (AED) no Contexto do Tema e Pergunta Orientada*:A Análise Exploratória de Dados (AED) é fundamental para responder à pergunta orientada "Como a taxa de inflação projetada para 2024 se compara com a média histórica de inflação dos últimos 10 anos (2014–2023) em países com dados disponíveis?", pois:
+*Importância da Análise Exploratória de Dados (AED) no Contexto do Tema e Pergunta Orientada*:A Análise Exploratória de Dados (AED) é fundamental para responder à pergunta orientada "Como a taxa de inflação projetada para 2024 se compara com a média histórica de inflação dos últimos 10 anos (2015–2023) em países com dados disponíveis?", pois:
 
 1. **Entendimento Inicial dos Dados**: Limpeza e Validação: Identifica valores ausentes (como os 5 valores nulos em 2024 no dataset) e inconsistências, garantindo a confiabilidade das comparações. Descrição Estatística: Calcula médias, desvios padrão e distribuições das taxas de inflação históricas e projetadas, oferecendo uma base quantitativa para comparações.
 
@@ -246,8 +250,9 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 ---
 
 
-<div id='Resultados da Analise Exploratoria '/>  
-<h3 align="center"><strong> Resultados  </strong></h3>
+<div id='Resultados'/>  
+<h3 align="center"><strong> Resultados da Analise Exploratoria   </strong></h3>
+	
 [Resultados](/others/Exploratory_Analysis.md)
 
 ## 1. Matriz de Correlação
@@ -262,7 +267,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-##  2. Top 10 Inflações Acumuladas (2014–2023)
+##  2. Top 10 Inflações Acumuladas (2015–2023)
 
 ![Top10\_Inflações\_Acumuladas](https://github.com/user-attachments/assets/10e0f35e-0eed-44f3-ba3d-a5f64b240c3e)
 
@@ -274,7 +279,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-##  3. Inflação Média Global (2014–2023)
+##  3. Inflação Média Global (2015–2023)
 
 ![Inflação Media Global](https://github.com/user-attachments/assets/c6c8d4ac-7018-4739-ad63-b3684cf78dd3)
 
@@ -302,7 +307,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ![Boxplot Interativo\_ Distribuição da Inflação por País](https://github.com/user-attachments/assets/b5440614-f94b-485b-9401-bfc8b83192a3)
 
-**Objetivo:** Explorar a distribuição estatística da inflação nos países entre 2014 e 2023.
+**Objetivo:** Explorar a distribuição estatística da inflação nos países entre 2015 e 2023.
 
 **Descrição:** A maioria dos países apresenta inflação moderada, mas alguns outliers registram picos extremamente altos.
 
@@ -387,10 +392,10 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 	
 **Revisão do Problema e das Hipóteses:**
 
-O problema central do trabalho foi compreender como a inflação projetada para 2024 se compara à média histórica dos últimos 10 anos (2014–2023) e identificar quais fatores explicam as variações observadas entre países e regiões. As hipóteses levantadas abordam persistência estrutural, vulnerabilidade regional, impacto de políticas monetárias e efeitos de eventos globais.
+O problema central do trabalho foi compreender como a inflação projetada para 2024 se compara à média histórica dos últimos 10 anos (2015–2023) e identificar quais fatores explicam as variações observadas entre países e regiões. As hipóteses levantadas abordam persistência estrutural, vulnerabilidade regional, impacto de políticas monetárias e efeitos de eventos globais.
 
 **1. Persistência Estrutural da Inflação**
-A análise da matriz de correlação revelou uma forte correlação positiva entre a inflação acumulada no período de 2014 a 2023 e a inflação projetada para 2024. Esse resultado indica que países que enfrentaram níveis elevados de inflação na última década tendem a manter projeções igualmente altas para o próximo ano, evidenciando um comportamento inflacionário persistente e estrutural. Tal persistência é consistente com a literatura econômica que aponta para a existência de uma “memória inflacionária” nas economias, onde choques passados e mecanismos de indexação de preços (como reajustes salariais, contratos e preços administrados) influenciam a dinâmica atual da inflação. Essa persistência pode ser agravada pela perda de credibilidade das políticas monetárias e pela dificuldade em romper ciclos inflacionários, especialmente em países com histórico de instabilidade econômica. Portanto, os dados confirmam que a inflação não é um fenômeno pontual, mas sim um processo que tende a se perpetuar, reforçando a hipótese de persistência estrutural.
+A análise da matriz de correlação revelou uma forte correlação positiva entre a inflação acumulada no período de 2015 a 2023 e a inflação projetada para 2024. Esse resultado indica que países que enfrentaram níveis elevados de inflação na última década tendem a manter projeções igualmente altas para o próximo ano, evidenciando um comportamento inflacionário persistente e estrutural. Tal persistência é consistente com a literatura econômica que aponta para a existência de uma “memória inflacionária” nas economias, onde choques passados e mecanismos de indexação de preços (como reajustes salariais, contratos e preços administrados) influenciam a dinâmica atual da inflação. Essa persistência pode ser agravada pela perda de credibilidade das políticas monetárias e pela dificuldade em romper ciclos inflacionários, especialmente em países com histórico de instabilidade econômica. Portanto, os dados confirmam que a inflação não é um fenômeno pontual, mas sim um processo que tende a se perpetuar, reforçando a hipótese de persistência estrutural.
 
 **2. Vulnerabilidade Regional**
 
@@ -410,7 +415,7 @@ Os gráficos temporais e as análises indicam um aumento significativo da infla�
 <div id='Conclusão'/>  
 	 <h3 align="center"><strong> Conclusão  </strong></h3> 
 	
-A análise comparativa das tendências de inflação global entre 2014 e 2024 permitiu compreender, de modo abrangente, como diferentes países e regiões foram impactados por choques econômicos, eventos globais e políticas internas ao longo da última década. Ao confrontar a inflação projetada para 2024 com a média histórica dos dez anos anteriores, foi possível identificar padrões de persistência, vulnerabilidades regionais e os efeitos das respostas econômicas adotadas.
+A análise comparativa das tendências de inflação global entre 2015 e 2024 permitiu compreender, de modo abrangente, como diferentes países e regiões foram impactados por choques econômicos, eventos globais e políticas internas ao longo da última década. Ao confrontar a inflação projetada para 2024 com a média histórica dos dez anos anteriores, foi possível identificar padrões de persistência, vulnerabilidades regionais e os efeitos das respostas econômicas adotadas.
 
 
 Os resultados confirmam que a inflação é, em muitos países, um fenômeno estruturalmente persistente. A matriz de correlação revelou uma forte relação positiva entre a inflação acumulada na década e as projeções para 2024, indicando que economias com histórico inflacionário elevado – como Venezuela, Argentina e Zimbábue – tendem a manter taxas altas, mesmo diante de novos cenários globais. Isso sugere a existência de mecanismos internos, como indexação de preços e falta de credibilidade institucional, que dificultam o rompimento do ciclo inflacionário.
@@ -438,4 +443,7 @@ Por fim, esta análise reforça a necessidade de monitoramento constante, transp
 <div id='APÊNDICES'/>  
  <h3 align="center"><strong> APÊNDICES  </strong></h3> 
 
- (Drive)[https://drive.google.com/drive/folders/1FxsYgWBBPNWUVAd0GjdZ0GcjgJay4qLJ?usp=drive_link]
+[Drive](https://drive.google.com/drive/folders/1FxsYgWBBPNWUVAd0GjdZ0GcjgJay4qLJ?usp=drive_link)
+Visualizar: Base de Dados, Base de dados apos a Limpeza, Graficos em PNG e Graficos em HTML, Codigo que foi utilizado para Limpeza e Analise Exploratoria, Video sobre a explicação dos Graficos e documentação completa.
+
+[Repositorio Git-Hub](https://github.com/ThiagoVenturim/Tendencias_de_Inflacao_Global)
