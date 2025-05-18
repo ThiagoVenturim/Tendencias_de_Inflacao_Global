@@ -215,47 +215,20 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 	
 *Importância da Análise Exploratória de Dados (AED) no Contexto do Tema e Pergunta Orientada*:A Análise Exploratória de Dados (AED) é fundamental para responder à pergunta orientada "Como a taxa de inflação projetada para 2024 se compara com a média histórica de inflação dos últimos 10 anos (2015–2023) em países com dados disponíveis?", pois:
 
-1. **Entendimento Inicial dos Dados**: Limpeza e Validação: Identifica valores ausentes (como os 5 valores nulos em 2024 no dataset) e inconsistências, garantindo a confiabilidade das comparações. Descrição Estatística: Calcula médias, desvios padrão e distribuições das taxas de inflação históricas e projetadas, oferecendo uma base quantitativa para comparações.
-
-2.  **Identificação de Variações Significativas**: Outliers - Detecta países com projeções para 2024 drasticamente superiores ou inferiores à média histórica (ex.: Argentina, Turquia ou Zimbábue em cenários hiperinflacionários). Disparidades Regionais: Agrupa países por regiões (ex.: América Latina, Europa, África) para identificar padrões geográficos. Por exemplo, países importadores de energia podem mostrar picos em 2022–2023 devido à guerra na Ucrânia.
-
-3.  **Correlações com Eventos Econômicos**: Eventos Globais- Usa matrizes de correlação (como a gerada com seaborn.heatmap) para vincular aumentos abruptos de inflação a eventos como:
-
-* Pandemia de COVID-19 (2020–2021): Impacto em cadeias de suprimentos e gastos públicos.
-
-* Guerra na Ucrânia (2022): Choques em preços de energia e alimentos.
-
-* Políticas Monetárias: Efeitos de aumentos de juros em países como EUA ou Brasil.
-
-* Análise Temporal: Gráficos de séries temporais revelam tendências (ex.: inflação persistentemente alta em economias emergentes vs. controle em países desenvolvidos).
-
-4. **Classificação de Países Críticos**: Foco no Público-Alvo: Prioriza países com maiores variações (ex.: projeção de 2024 > 2x média histórica), destacando casos como:
-
-* Venezuela: Hiperinflação crônica agravada por sanções.
-
-* Turquia: Queda da moeda e políticas monetárias não convencionais.
-
-* UE/EUA: Pressões pós-pandemia e transição energética.
-
-5. **Subsídios para Interpretação Estratégica**: Padrões Estruturais: Revela se economias dependentes de commodities (ex.: Nigéria, petróleo) são mais vulneráveis a choques externos. Eficácia de Políticas: Compara países que adotaram medidas restritivas (ex.: juros altos) vs. expansionistas, avaliando seu impacto na inflação projetada.
-
-
 **A AED não apenas responde à pergunta orientada, mas também direciona o foco para casos críticos, contextualiza causas e apoia recomendações políticas. Ao combinar estatísticas descritivas, visualizações e correlações, ela transforma dados brutos em insights acionáveis, essenciais para formuladores de políticas e investidores em um cenário econômico volátil.**
 
 
 [Codigo da Analise Exploratoria](/code/Exploratory_Analysis_Code/Code_Exploratory_Data_Analysis.ipynb)
 
-
-	
----
-
-
-<div id='Resultados'/>  
-<h3 align="center"><strong> Resultados da Analise Exploratoria   </strong></h3>
 	
 [Resultados](/others/Exploratory_Analysis.md)
 
-## 1. Matriz de Correlação
+
+<div id='Resultados'/>  
+
+## **Resultados**
+
+### 1. Matriz de Correlação
 
 ![Matrix de Correlação](https://github.com/user-attachments/assets/3e24d311-6ac7-47bc-b7ef-f073085e8a22)
 
@@ -267,7 +240,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-##  2. Top 10 Inflações Acumuladas (2015–2023)
+###  2. Top 10 Inflações Acumuladas (2015–2023)
 
 ![Top10\_Inflações\_Acumuladas](https://github.com/user-attachments/assets/10e0f35e-0eed-44f3-ba3d-a5f64b240c3e)
 
@@ -279,7 +252,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-##  3. Inflação Média Global (2015–2023)
+###  3. Inflação Média Global (2015–2023)
 
 ![Inflação Media Global](https://github.com/user-attachments/assets/c6c8d4ac-7018-4739-ad63-b3684cf78dd3)
 
@@ -291,7 +264,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-##  4. Mapa de Inflação por País (2024)
+###  4. Mapa de Inflação por País (2024)
 
 ![Mapa de Inflação por Pais](https://github.com/user-attachments/assets/1a41cf09-2983-4157-8a78-176de1216ce6)
 
@@ -303,7 +276,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-## 5. Boxplot Interativo – Distribuição da Inflação por País
+### 5. Boxplot Interativo – Distribuição da Inflação por País
 
 ![Boxplot Interativo\_ Distribuição da Inflação por País](https://github.com/user-attachments/assets/b5440614-f94b-485b-9401-bfc8b83192a3)
 
@@ -315,7 +288,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-## 6. Gráfico Interativo – Inflação por País e Eventos Econômicos
+### 6. Gráfico Interativo – Inflação por País e Eventos Econômicos
 
 ![Gráfico Interativo de Inflação por País Evento](https://github.com/user-attachments/assets/bca55a59-eaa5-4e51-883f-bef7641458d8)
 
@@ -327,7 +300,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-##  7. Comparação Direta da Inflação Entre Países
+###  7. Comparação Direta da Inflação Entre Países
 
 ![Comparação da Inflação Entre País](https://github.com/user-attachments/assets/42bdc6f6-0254-405d-adeb-bd2b4f65c469)
 
@@ -339,7 +312,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-## 8. Inflação Média por Continente
+### 8. Inflação Média por Continente
 
 ![Inflação Media por Continente](https://github.com/user-attachments/assets/a09b2580-53c2-443c-8936-723ce0441148)
 
@@ -351,7 +324,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-## 9. Top 10 Países com Maior Aumento de Inflação em 2024
+### 9. Top 10 Países com Maior Aumento de Inflação em 2024
 
 ![Top 10 paises com maior aumento em 2024](https://github.com/user-attachments/assets/b42bcfd7-1cb0-42d8-bf82-3c2b79804704)
 
@@ -363,7 +336,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-##  10. Top 10 Países com Maior Redução de Inflação em 2024
+###  10. Top 10 Países com Maior Redução de Inflação em 2024
 
 ![Top 10 paises com maior e redução em 2024](https://github.com/user-attachments/assets/bb2eadf9-9a90-48d9-b2f5-92318ca9b035)
 
@@ -375,7 +348,7 @@ Essa estrutura, embora simples, oferece um panorama robusto que permite realizar
 
 ---
 
-##  11. Inflação Projetada (2024) vs Média Histórica (2015–2023)
+###  11. Inflação Projetada (2024) vs Média Histórica (2015–2023)
 
 ![Gráfico Interativo\_ Inflação Projetada (2024) vs Média Histórica (2015–2023)](https://github.com/user-attachments/assets/62f1be1f-bf1e-4f77-9539-517d2bf3686f)
 
